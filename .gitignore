@@ -1,0 +1,24 @@
+# Foldery wygenerowane automatycznie
+bin/
+obj/
+
+# Pliki konfiguracyjne środowiska
+appsettings.Development.json
+appsettings.json
+
+# Pliki specyficzne dla IDE
+*.user
+*.suo
+*.csproj.user
+*.suo
+
+# Foldery konfiguracyjne IDE
+.vscode/
+.idea/
+
+# Pliki lokalne Visual Studio
+.vs/
+
+# Pliki tymczasowe systemu operacyjnego
+.DS_Store
+Thumbs.db
