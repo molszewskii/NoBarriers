@@ -1,0 +1,74 @@
+.shadow{
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+}
+.headerUsersProfile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 9vh;
+    
+}
+.edit .buttons{
+    margin-left: 0;
+}
+.wrapperUsersProfile .edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-left: 300px;
+}
+
+.myprofile{
+    color:white;
+    font-size: 20px;
+    margin-left:20%;
+    width: 80%;
+    height: 7vh;
+    margin-top: 65px;
+}
+
+.myprofile h2{
+    margin: 0;
+}
+
+.informations{
+    color:white;
+    margin-left: 40px;
+}
+
+.informations h3,h4,h5,h6{
+    font-size: 25px;
+    margin: 0;
+}
+
+.change{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change .buttons{
+    background: linear-gradient(to right, rgb(231, 131, 15) 0%, #df4205 79%);
+}
+/* 
+asfdsadsdaasddas */
+
+.userProfileWrapper{
+    height: 90vh;
+    width: 100%;
+    background-image: url('./../assets/site-bg.jpg');
+    display: flex;
+}
+.userProfileWrapper img{
+    margin: 0;
+}
+.changePasswordButton{
+    width: 70%;
+    text-align: right;
+}
+.changePasswordButton span{
+    width: 100%;
+}

@@ -1,0 +1,78 @@
+.loginSection{
+    text-align: center;
+    width: 30%;
+    height: 60vh;
+    margin-left: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius:5%;
+    background: linear-gradient(to right, purple 15%, #0231c0 69%);
+}
+.header{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 0;
+    margin-top: 5px;
+}
+.headerLogin{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 9vh;
+}
+.label{
+    color: white;
+}
+.inputsForm{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.reset{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.button{
+    background: linear-gradient(to right, purple 0%, #001144 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input{
+    font-size: 15px;
+    width: 90%;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+}
+.header2{
+    font-size: 50px;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    background-image: url('./../assets/site-bg.jpg');
+    width: 100%;
+}
+
+.inputsForm .email-input .MuiFilledInput-root {
+    background-color: white;
+  }

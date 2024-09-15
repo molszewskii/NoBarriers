@@ -1,0 +1,101 @@
+.registerSection{
+    text-align: center;
+    width: 30%;
+    height: 35rem;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius:5%;
+    background: linear-gradient(to right, purple 15%, #0231c0 69%);
+}
+.header{
+    font-size: 32px;
+    margin-bottom: 0px;
+    color: white;
+}
+.label{
+    color: white;
+}
+.inputsForm{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.reset{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.button{
+    background: linear-gradient(to right, purple 0%, #001144 79%);
+}
+.button span{
+    width: 100%;
+}
+.input{
+    font-size: 15px;
+    width: 90%;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+}
+.header2{
+    font-size: 50px;
+    margin: 0px;
+}
+.wrapper{
+    height: 90vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    background-image: url('./../assets/site-bg.jpg')
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 220px;
+    text-align: center;
+
+}
+
+.namesurname{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.namesurname .name-input {
+    margin-bottom: 10px;
+    width: 48%;
+  }
+  
+.namesurname  .name-input .MuiFilledInput-root {
+    background-color: white;
+  }
+.role{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.role h1{
+    margin: 0;
+    font-size: 24px;
+}
+.radiogroup{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.radiogroup span{
+    width: 65%;
+    color: white;
+}
